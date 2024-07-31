@@ -27,24 +27,24 @@ export class Layout {
                 background: 'white',
                 title: 'Add new item to your shopping list',
             },
-            {
-                text: 'Team',
-                content: PageTeam,
-                background: 'grey',
-                title: 'Our team'
-            },
-            {
-                text: 'Services',
-                content: PageServices,
-                background: 'white',
-                title: 'Our services'
-            },
-            {
-                text: 'Contact us',
-                content: PageContact,
-                background: 'aquamarine',
-                title: 'Contact us',
-            },
+            // {
+            //     text: 'Team',
+            //     content: PageTeam,
+            //     background: 'grey',
+            //     title: 'Our team'
+            // },
+            // {
+            //     text: 'Services',
+            //     content: PageServices,
+            //     background: 'white',
+            //     title: 'Our services'
+            // },
+            // {
+            //     text: 'Contact us',
+            //     content: PageContact,
+            //     background: 'aquamarine',
+            //     title: 'Contact us',
+            // },
         ];
         this.DOM = document.getElementById('app');
         this.mainDOM = null;
@@ -52,7 +52,7 @@ export class Layout {
         this.render();
         this.headerEvents();
 
-        new this.pagesData[2].content(this.mainDOM);
+        new this.pagesData[1].content(this.mainDOM);
     }
 
     header() {

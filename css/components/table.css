@@ -46,3 +46,8 @@ table {
     background-color: red;
     border-radius: 50%;
   }
+
+  tbody td button {
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.1rem;
+  }
